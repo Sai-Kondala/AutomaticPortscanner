@@ -1,0 +1,7 @@
+streamlit
+python-nmap
+requests
+pandas
+fpdf2
+Jinja2
+APScheduler
