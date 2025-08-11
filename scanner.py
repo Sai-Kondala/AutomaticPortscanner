@@ -170,7 +170,7 @@ def perform_scan_and_update_state(target_ip, slack_webhook_url=None):
         send_slack_notification(slack_webhook_url, target_ip, cve_list)
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Advanced Vulnerability Scanner", layout="wide")
+st.set_page_config(page_title="Advanced Vulnerability Scanner", layout="wide",page_icon="🛡️",)
 
 # Initialize session state
 if 'scan_results_df' not in st.session_state:
